@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(217, 178, 129);
+}
+
+.title{
+    text-align: center;
+    color: rgb(95, 52, 60);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title h1{
+    font-size: 6vh;
+}
+
+.title h2{
+    font-size: 4vh;
+    color: rgb(116, 73, 73);
+}
+
+
+.wrapper{
+    text-align: center;
+}
+
+.wrapper a{
+    text-decoration: none;
+}
+
+.character{
+    position: relative;
+    display: inline-block;
+    color: rgb(51, 39, 22);
+    font-family:fantasy;
+    font-size: 150%;
+    margin: 1%;
+    
+}
+
+.square{
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    overflow: hidden;
+
+}
+.images{
+    display: inline-block;
+    margin: auto
+}
+.images img{
+    
+    height: 30vw;
+}
+
+.leftjust{
+    text-align: left;
+}
+
+.backbutton{
+    display: inline-block;
+    text-align: left;
+}
+
+.backbutton button{
+   font-size: 1.2em;
+   color: black;
+   background-color: bisque;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: none;
+   border-radius: 10px;
+   width: 10vw;
+}
+
+.backbutton button:hover{
+   color: rgb(255, 255, 255);
+   background-color: rgb(75, 68, 60);
+}
