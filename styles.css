@@ -77,3 +77,12 @@ body{
    color: rgb(255, 255, 255);
    background-color: rgb(75, 68, 60);
 }
+
+.link{
+  text-decoration: none;
+  color: rgb(56, 40, 16);
+}
+
+.link:hover{
+    color: azure;
+}
