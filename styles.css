@@ -86,3 +86,16 @@ body{
 .link:hover{
     color: azure;
 }
+
+.nuditystar{
+    position: relative;
+    top: -0.09em;
+    height: 100%;
+}
+
+.nuditystarbig{
+    position: relative;
+    top: -0.09em;
+    height: 100%;
+    min-height: 2vh;
+}
