@@ -45,13 +45,19 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-.images{
+.images, .blurrimages{
     display: inline-block;
     margin: auto
 }
 .images img{
     
     height: 30vw;
+}
+
+
+.blurrimages img{
+    height: 30vw;
+    filter: blur(5px);
 }
 
 .leftjust{
